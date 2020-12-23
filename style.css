@@ -185,7 +185,11 @@ img {
     display: flex;
     justify-content: space-between;
     width: 120px;
-    height: 200px;
+  
+    padding: 8px;
+    overflow: none;
+  
+  
 
    
   
@@ -193,6 +197,7 @@ img {
 }
 
 .contact img:hover {
+ 
     transform: scale(1.6);
     transition: 0.2s;
 }
@@ -201,7 +206,7 @@ img {
 
 .contact img {
     
-    
+    margin-right: 10px;
     width: 30px;
     transition: 0.2s;
 }
