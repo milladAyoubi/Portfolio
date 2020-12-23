@@ -49,6 +49,7 @@ body {
 }
 
 h1,h2,p {
+    color: rgb(117, 116, 116);
     margin:0px;
 }
 
@@ -106,7 +107,7 @@ img {
 }
 
 
-.bd-grid {
+.grid {
     max-width:100%;
     display: grid;
     grid-template-columns: 100%;
@@ -154,16 +155,69 @@ img {
     text-decoration: none;
 }
 
+.home {
+    padding: 30px 0px;
+    height: 100%;
+    
+}
 
 
 
+.homeTitle {
+    align-self: center;
+}
+.homeTitle h1 {
+    font-weight: bold;
+  
+    
+    color: var(--secondary-color);
+    
+    
+}
+
+
+.homeTitle a {
+   
+    margin: 30px 0px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+    height: 200px;
+
+   
+  
+ 
+}
+
+.contact img:hover {
+    transform: scale(1.6);
+    transition: 0.2s;
+}
+
+
+
+.contact img {
+    
+    
+    width: 30px;
+    transition: 0.2s;
+}
+
+.homeImg img {
+    position: absolute;
+    right: 0;
+    left: 0;
+}
 
 @media (max-width: 768px)  {
 
 
 
     .navMenu {
-     
+        
         position: fixed; 
         top: var(--top-height);
         right: -100%; 
@@ -173,6 +227,7 @@ img {
         border-radius: 5px;
         transition: 0.4s;
     box-shadow: 0px 1px 25px rgba(146,161,176,0.8);
+   
 
 
 
@@ -181,6 +236,8 @@ img {
 
     .navItem {
         margin-bottom: var(--m-4);
+       
+
     }
 
     .navLink {
@@ -221,6 +278,7 @@ img {
 
     .show {
         right: 0;
+       
 
     }
     
