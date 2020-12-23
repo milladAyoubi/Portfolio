@@ -139,11 +139,20 @@ img {
 
 }
 
-.nav li a{
+.navLink{
+    
     color:var(--t-color);
     text-decoration: none;
 }
 
+
+.navLink:hover {
+    color: var(--primary-color);
+}
+
+.nav li a {
+    text-decoration: none;
+}
 
 
 
@@ -179,6 +188,8 @@ img {
         
     }
 
+    
+
     .navLink:hover::after {
         text-decoration: none;
         position: absolute;
@@ -199,7 +210,14 @@ img {
     }
 
 
+    .selected {
+       color: var(--primary-color);
+       transform: scaleX(1.2);
+    }
 
+    .minimize {
+        width: 10px;
+    }
 
     .show {
         right: 0;

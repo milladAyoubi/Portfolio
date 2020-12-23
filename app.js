@@ -13,3 +13,21 @@ const menu = (toggle,ID) => {
 }
 
 menu('navMenuBar','navMenu')
+
+
+const navLink = document.querySelectorAll('.navLink')
+
+
+navLink.forEach( e => e.addEventListener('click', () =>{
+
+    navLink.forEach(e => e.classList.remove("selected"))
+    e.classList.add("selected")
+
+
+    const navMenu = document.querySelector('.navMenu')
+    navMenu.classList.remove("show")
+
+}))
+
+
+
