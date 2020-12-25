@@ -5,7 +5,7 @@
     --top-height: 3rem; 
     --font-semi:600;
 
-    --primary-color: #a0ddfc;
+    --primary-color: #49a7fa;
     --secondary-color: #8860D0;
     --t-color: #f54491;
 
@@ -48,11 +48,17 @@ body {
 
 }
 
-h1,h2,p {
+h1,h2 {
+    font-weight: bold;
     color: rgb(117, 116, 116);
     margin:0px;
 }
 
+p {
+    font-size: 20px;
+    color: rgb(117, 116, 116);
+    margin:0px;
+}
 ul {
     
     margin:0px;
@@ -175,29 +181,31 @@ a{
 
 
 .homeTitle {
+
     align-self: center;
     
 }
+
 .homeTitle h1 {
+
     font-weight: bold;
-  
-    
-    color:  #333;
-    
-    
+    color:  #333;    
 }
 
 
 .homeTitle a {
+
     padding: 10px;
     margin: 30px 0px 20px 0px;
 }
 
 
  .btn:hover {
+
     box-shadow: 6px 8px 8px rgba(79, 85, 92, 0.4);
 }
 .contact {
+
     display: flex;
     justify-content: space-between;
     width: 120px;
@@ -230,9 +238,17 @@ a{
     float: right;
    
 }
-.about {
+
+.sectionTitle{
     text-align: center;
-    margin: 200px 0px;
+    margin: 40px auto;
+    width: 10%;
+    border-bottom:4px solid var(--primary-color);
+    color: var(--primary-color)
+}
+.about {
+    
+    margin: 100px 0px;
     padding: 50px;
 }
 
@@ -241,22 +257,71 @@ a{
 }
 
 .aboutImg img  {
-    width: 300px ;
+    width: 100% ;
     border-radius: 20px;
 }
 
 
-.aboutContainer {
+.aboutContainer p{
     row-gap: 20px;
-    margin-bottom: 20px;
+    margin: 30px 0px;
+}
+.skillsContainer {
+    width: 100%;
+}
+.skills {
+  
+    text-align: center;
+}
+
+.skillsData {
+    padding: 30px;
+    margin: 40px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:100%;
+
+  
+}
+
+.card {
+
+    padding: 20px 0px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+    width:220px;
+    height: 260px;
+    border-radius: 5px;
+    align-items: center;
+    transition: 1.2s;
+}
+
+.card img{
+
+    width: 60%;
+
 }
 
 
+.card:hover {
+
+    transform: translateY(-10px);
+    transition:0.4s;
+}
+
+
+.skillsContainer img {
+    width: 60%;
+    border-radius: 5px;
+  
+}
 
 @media (max-width: 1008px)  {
-
+    .sectionTitle {
+        width: 60%;
+    }
     .grid {
-        display: block;
+        display: inline-block;
     }
      
    .homeImg img {
@@ -316,6 +381,16 @@ a{
     }
 
 
+     .skillsData {
+         margin: 0px;
+         padding: 10px;
+        justify-content: space-between;
+     }
+    .card {
+        
+        width: 80px;
+        height: 200px;
+    }
     .selected {
        color: var(--primary-color);
        transform: scaleX(1.2);
