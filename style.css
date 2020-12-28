@@ -235,7 +235,7 @@ a{
 }
 .about {
     
-  
+    width: 100%;
     padding: 50px;
 }
 
@@ -263,10 +263,7 @@ a{
 .skillsText {
     margin-left: 20px;
 }
-.skills {
-  
- 
-}
+
 
 .skillsData {
     padding: 30px;
@@ -344,7 +341,7 @@ a{
 }
 
 .projectsImg img {
-    
+    cursor: pointer;
     width: 100%;
     border-radius: 5px;
 }
@@ -353,8 +350,9 @@ a{
 
     text-decoration: none;
     font-weight:bold;
-    color: var(--t-color);
+    color: white;
     border: 2px solid var(--t-color);
+    background-color: var(--t-color);
     border-radius: 5px;
     padding: 4px;
     margin: 0px 5px;
@@ -363,8 +361,8 @@ a{
 }
 
 .projectLink .link:hover {
-    background-color: var(--t-color);
-    color:white;
+    background-color: transparent;
+    color:var(--t-color);
     transition: 0.2s;
 }
 
@@ -375,14 +373,13 @@ a{
     position: absolute;
     bottom: -100%;
     width: 100%;
-    height: 100%;
+    height: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgba(255, 255, 255, 0.3);
     border-radius: 5px;
-    cursor: pointer;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(2px);
     transition: 0.3s;
 
 
@@ -395,8 +392,31 @@ a{
 
 
 
+.educationTab {
+    display: inline-block;
+   
+    width: 100%;
+
+   
+}
+
+.educationTab h2 {
+    font-weight: bold;
+    color: #333;
+    margin: auto 0px;
+}
 
 
+.educationTab .educationInfo {
+    display:flex;
+ 
+    
+
+}
+.educationInfo p{
+    margin: auto 20px;
+
+}
 
 
 
