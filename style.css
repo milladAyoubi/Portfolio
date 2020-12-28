@@ -393,35 +393,14 @@ a{
 
 
 .educationTab {
-    display: inline-block;
    
     width: 100%;
+  
+    
+    border: 2px solid black;
 
    
 }
-
-.educationTab h2 {
-    font-weight: bold;
-    color: #333;
-    margin: auto 0px;
-}
-
-
-.educationTab .educationInfo {
-    display:flex;
- 
-    
-
-}
-.educationInfo p{
-    margin: auto 20px;
-
-}
-
-
-
-
-
 
 
 
