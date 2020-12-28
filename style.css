@@ -235,7 +235,7 @@ a{
 }
 .about {
     
-    margin: 200px 0px;
+  
     padding: 50px;
 }
 
@@ -257,7 +257,6 @@ a{
 
 
 .skillsContainer {
-    margin: 30px;
     padding: 50px
 }
 
@@ -322,7 +321,7 @@ a{
 
 .projects {
  
-    border: 2px solid black;
+  
     text-align: center;
 }
 
@@ -338,7 +337,7 @@ a{
     
     position: relative;
     overflow: hidden;
-    margin: 0px 30px;
+    margin: 10px 10px;
     row-gap: 10px;
  
 
