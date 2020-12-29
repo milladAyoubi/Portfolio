@@ -402,7 +402,44 @@ a{
    
 }
 
+.contact {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    padding: 20px;
+    border: 2px solid black;
+}
 
+.contactHead {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    color: var(--t-color);
+ 
+}
+.contactContainer {
+
+    display: flex;
+    justify-content: center;
+    row-gap: 20px;
+ 
+
+}
+
+
+.contactInput {
+    width: 100%;
+    padding: 10px 0px 10px 20px;
+    outline: none;
+    border: none;
+    background-color: rgb(240, 240, 240);
+    border-radius: 5px;
+    margin-bottom: 10px;
+} 
+
+.contactInputList {
+    margin-bottom: 20px;
+}
 
 
 
