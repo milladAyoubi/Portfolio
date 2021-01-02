@@ -260,6 +260,7 @@ a {
 }
 
 .projectsContainer {
+    margin-top: 40px;
     justify-content: space-between;
     display: inline-block;
     justify-items: center;
@@ -314,6 +315,11 @@ a {
 
 .projectsImg:hover .projectLink {
     bottom: 0;
+}
+
+.tools {
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
 .backTab {
