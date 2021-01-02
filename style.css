@@ -38,11 +38,9 @@ body {
     color: white;
 }
 
-h1,
 h2 {
     font-weight: bold;
     color: rgb(117, 116, 116);
-    margin: 0px;
 }
 
 p {
@@ -76,11 +74,9 @@ a {
 }
 
 .grid {
-    max-width: 100%;
     display: grid;
     grid-template-columns: auto auto;
-    grid-column-gap: 1rem;
-    width: 90%;
+    gap: 40px;
     margin: 0 2rem;
     align-items: center;
     justify-content: center;
@@ -104,13 +100,13 @@ a {
 }
 
 .navMenu {
-    width: 80%;
+    width: 60%;
     padding: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 .navMenu li {
-    float: right;
-    justify-content: space-between;
     margin: 0px 30px;
     display: inline;
 }
@@ -128,13 +124,16 @@ a {
     text-decoration: none;
 }
 
+.navMenuBar {
+    display: none;
+}
+
 .home {
-    padding: 100px 0px;
-    height: 100vh;
+    height: auto;
 }
 
 .homeTitle {
-    align-self: center;
+    margin: 0 auto;
 }
 
 .homeTitle h1 {
@@ -153,7 +152,7 @@ a {
 
 .contact {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 120px;
     height: 80px;
     padding: 8px;
