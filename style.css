@@ -384,12 +384,16 @@ a {
         position: fixed;
         top: var(--top-height);
         right: -100%;
-        width: 60%;
+        width: 50%;
         height: 100%;
         padding: 40px;
         border-radius: 5px;
         transition: 0.4s;
         box-shadow: 0px 1px 25px rgba(0, 0, 0, 0.8);
+    }
+    .navMenuBar {
+        padding: 5px;
+        display: flex;
     }
     .contact img {
         margin: 0;
