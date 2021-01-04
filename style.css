@@ -364,7 +364,7 @@ a {
     .navMenu {
         background-color: #333;
         position: fixed;
-        top: var(--top-height);
+        top: 50px;
         right: -100%;
         width: 50%;
         height: 100%;
