@@ -75,7 +75,7 @@ a {
 
 .grid {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 60% 40%;
     gap: 40px;
     margin: 0 2rem;
     align-items: center;
@@ -259,6 +259,10 @@ a {
     text-align: center;
 }
 
+.projectTitle {
+    font-size: 20px;
+}
+
 .projectsContainer {
     margin-top: 40px;
     justify-content: space-between;
@@ -319,7 +323,13 @@ a {
 
 .tools {
     font-weight: bold;
+    font-size: 18px;
     margin-bottom: 20px;
+}
+
+.subTitle {
+    margin-top: 60px;
+    font-weight: bold;
 }
 
 .backTab {
@@ -375,6 +385,7 @@ a {
     }
     .sectionTitle {
         width: 60%;
+        margin-bottom: 40px;
     }
     .grid {
         display: inline-block;
@@ -448,5 +459,16 @@ a {
     }
     .show {
         right: 0;
+    }
+}
+
+@media (max-width: 1008px) {
+    .skillsData {
+        margin: 20px 0px;
+        padding: 0px;
+        gap: 0px;
+    }
+    .projectsImg img {
+        width: 100%;
     }
 }
