@@ -138,6 +138,13 @@ a {
     font-size: 14px;
 }
 
+.logo {
+    font-size: 20px;
+    position: relative;
+    left: 40px;
+    top: 10px;
+}
+
 
 /*Home Section */
 
@@ -433,7 +440,7 @@ a {
     }
 }
 
-@media (max-width: 1008px) {
+@media (max-width: 1000px) {
     .skillsData {
         margin: 20px 0px;
         padding: 0px;
