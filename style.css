@@ -150,10 +150,11 @@ a {
 
 .home {
     height: auto;
+    padding: 40px;
 }
 
 .homeTitle {
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 .homeTitle h1 {
@@ -447,6 +448,9 @@ a {
 }
 
 @media (max-width: 800px) {
+    .home {
+        padding: 5px;
+    }
     .skillsData {
         margin: 20px 0px;
         padding: 0px;
