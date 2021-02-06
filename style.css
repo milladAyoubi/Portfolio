@@ -383,7 +383,7 @@ a {
         box-shadow: 0px 1px 25px rgba(0, 0, 0, 0.8);
     }
     .navMenuBar {
-        padding: 5px;
+        padding: 10px;
         display: flex;
     }
     .contact img {
