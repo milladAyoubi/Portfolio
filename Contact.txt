@@ -1,0 +1,72 @@
+
+    <section class="contactTab" id="contact">
+        <h2 class="sectionTitle ">Contact</h2>
+
+
+
+
+        <div class="contactContainer">
+
+            <form action="" class="contactForm">
+                <div class="contactInputList ">
+                    <h2 class="contactHead ">Get In Touch!</h2>
+                    <input type="text" class="contactInput " placeholder="Name">
+                    <input type="text" class="contactInput " placeholder="Email">
+                    <textarea class="contactInput " name=" " id=" " cols="0 " rows="10" placeholder="Message"></textarea>
+
+
+                </div>
+
+                <input type="submit" class="btn btn-primary" value="Send Message">
+
+
+
+
+
+            </form>
+
+        </div>
+    </section>
+
+
+
+
+
+.contactTab {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    padding: 20px;
+}
+
+.contactHead {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    color: var(--t-color);
+}
+
+.contactContainer {
+    display: flex;
+    justify-content: center;
+    row-gap: 20px;
+}
+
+.contactInput {
+    width: 100%;
+    padding: 10px 0px 10px 20px;
+    outline: none;
+    border: none;
+    background-color: rgb(240, 240, 240);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.contactInputList {
+    margin-bottom: 20px;
+}
+
+
+
+
+
