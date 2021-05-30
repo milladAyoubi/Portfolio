@@ -497,7 +497,7 @@ a {
 
 @media (max-width: 350px) {
     .navMenuBar img {
-        width: 10px;
+        width: 100%;
     }
     .titleHeadline {
         width: 100%;
