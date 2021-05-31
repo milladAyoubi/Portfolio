@@ -495,7 +495,7 @@ a {
     }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 450px) {
     .navMenuBar img {
         width: 100%;
     }
