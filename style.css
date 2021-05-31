@@ -497,7 +497,8 @@ a {
 
 @media (max-width: 450px) {
     .navMenuBar img {
-        width: 50%;
+        width: 34px;
+        height: 34px;
     }
     .titleHeadline {
         width: 100%;
@@ -513,7 +514,7 @@ a {
         font-size: 24px;
     }
     .titleHeadline h1 {
-        font-size: 12px;
+        font-size: 15px;
     }
     .btnContact {
         font-size: 10px;
