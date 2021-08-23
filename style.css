@@ -466,12 +466,10 @@ a {
     .skillsData {
         margin: 20px 0px;
         padding: 0px;
-        gap: 0px;
+        gap: 20px;
     }
     .card {
-        padding: 12px 0px;
-        width: 80px;
-        height: 80px;
+        height: 200px;
     }
     .card p {
         display: none;
@@ -505,6 +503,16 @@ a {
     }
     .projectsImg img {
         width: 100%;
+    }
+    .skillsData {
+        margin: 20px 0px;
+        padding: 0px;
+        gap: 0px;
+    }
+    .card {
+        padding: 12px 0px;
+        width: 80px;
+        height: 80px;
     }
 }
 
