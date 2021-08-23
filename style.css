@@ -409,9 +409,9 @@ a {
         width: auto;
         height: 100%;
         padding: 40px;
-        border-radius: 5px;
+        border-radius: 2px;
         transition: 0.4s;
-        box-shadow: 0px 1px 5px rgba(177, 177, 177, 0.8);
+        box-shadow: 0px 10px 12px rgba(201, 201, 201, 0.2);
     }
     .navMenuBar {
         padding: 10px;
