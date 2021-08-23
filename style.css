@@ -89,7 +89,7 @@ a {
 }
 
 .nav {
-    height: 50px;
+    height: 52px;
     display: flex;
     justify-content: space-between;
     background-color: white;
@@ -109,12 +109,12 @@ a {
 }
 
 .navLink {
-    color: var(--t-color);
+    color: rgb(94, 158, 253);
     text-decoration: none;
 }
 
 .navLink:hover {
-    color: var(--primary-color);
+    color: rgb(0, 0, 0);
 }
 
 .nav li a {
@@ -160,6 +160,7 @@ a {
 
 .titleName h1 {
     font-weight: 100;
+    font-size: 30px;
     color: rgb(119, 119, 119);
 }
 
@@ -167,16 +168,16 @@ a {
     width: 50%;
     margin: 0 auto;
     text-align: center;
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: bold;
-    background-color: #f54491;
     border-radius: 100px;
-    box-shadow: 0px 14px 10px rgba(182, 181, 181, 0.4);
     padding: 1.2rem;
 }
 
 .titleHeadline h1 {
     margin: 0 auto;
+    font-weight: bold;
+    font-size: 250%;
 }
 
 .contact {
@@ -405,7 +406,7 @@ a {
         position: fixed;
         top: 50px;
         right: -100%;
-        width: 50%;
+        width: auto;
         height: 100%;
         padding: 40px;
         border-radius: 5px;
@@ -424,10 +425,7 @@ a {
         width: 100%;
     }
     .titleHeadline {
-        width: 80%;
-    }
-    .titleHeadline h1 {
-        font-size: 20px;
+        width: 60%;
     }
     .navItem {
         margin-bottom: var(--m-4);
@@ -495,6 +493,9 @@ a {
         margin: 20px 0px;
         padding: 0px;
         gap: 0px;
+    }
+    .titleHeadline h1 {
+        font-size: 150%;
     }
     .projectsImg img {
         width: 100%;
