@@ -259,6 +259,12 @@ a {
     border-radius: 5px;
 }
 
+.projectsImg img #appleclone {
+    cursor: pointer;
+    width: 200px;
+    border-radius: 5px;
+}
+
 .projectLink .link {
     text-decoration: none;
     font-weight: bold;
