@@ -66,14 +66,14 @@ a {
 }
 
 .sectionTitle {
-    border-bottom: 2px solid rgb(247, 247, 247);
+
     padding: 1rem;
     text-align: center;
-    font-weight: 200;
+    font-weight: bold;
     margin: 50px auto 0 auto;
     font-size: 42px;
-    width: 20%;
-    color: rgb(99, 99, 99);
+    width: 10rem;
+    color: rgb(0, 0, 0);
 }
 
 
@@ -229,6 +229,8 @@ a {
 
 /*Projects Section*/
 
+
+
 .projects {
     text-align: center;
 }
@@ -238,24 +240,21 @@ a {
 }
 
 .projectsContainer {
-    padding: 10px;
-    margin-top: 40px;
-    justify-content: space-between;
+   
     display: inline-block;
-    justify-items: center;
-    row-gap: 40px;
+    row-gap: 0px;
 }
 
 .projectsImg {
     position: relative;
     overflow: hidden;
-    margin: 10px 10px;
+    margin: 0.4rem 0.6rem;
     row-gap: 10px;
 }
 
 .projectsImg img {
     cursor: pointer;
-    width: 500px;
+    width: 350px;
     border-radius: 5px;
 }
 
@@ -335,7 +334,7 @@ a {
 .tools {
     font-weight: bold;
     color: rgb(34, 34, 34);
-    font-size: 18px;
+    font-size: 17px;
     margin-bottom: 20px;
 }
 
@@ -400,7 +399,7 @@ a {
         font-size: 14px;
     }
     .sectionTitle {
-        width: 60%;
+        width: 100%;
         margin-bottom: 40px;
     }
     .grid {
